@@ -1,0 +1,5 @@
+netsh wlan set hostednetwork mode=allow ssid=Yourhotspotname key=yourpassword
+
+netsh wlan start hostednetwork
+netsh wlan stop hostednetwork
+
